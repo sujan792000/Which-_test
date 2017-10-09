@@ -1,0 +1,2 @@
+web: PLATFORM=web -r features/step_definitions -r features/support -r pages
+html_report: --format progress --format html --out=test_results.html
